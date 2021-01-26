@@ -1,0 +1,40 @@
+
+  *{
+    box-sizing: border-box;
+  }
+  h1{
+    text-align: center;
+    font-size: 175%;    
+  } 
+  .row{
+    width: 100%;
+  }
+  #inner
+  {
+    border: 1px solid black;
+    position: relative;
+    background-color: #b3a4a4;
+    padding: 10px;
+    height: 200px;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+  float:left;
+  border: 10px solid white;
+    }
+span{
+  border: 1px solid black;
+  float: left;
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: 125%;
+}
+#sec1{
+  background-color: red;
+}
+#sec2{
+  background-color: orange;
+}
+#sec3{
+  background-color: green;
+}
